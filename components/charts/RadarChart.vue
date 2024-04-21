@@ -1,11 +1,11 @@
 <script>
-import {Bar} from 'vue-chartjs'
-
+import { Radar } from 'vue-chartjs'
 export default {
-  extends: Bar,
+  extends: Radar,
   props: ['data', 'options'],
   mounted () {
     this.renderChart(this.data, this.options)
-  }    
+  }
 }
+
 </script>
